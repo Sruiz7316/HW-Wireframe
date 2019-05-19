@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    font-size: 18px;
+    align-content: center;
+}
+
+#Header {
+
+    background-color: rgb(231, 223, 223);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 960px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    align-content: center;
+    margin-top: 15px;
+}
+
+#Nav {
+    background-color: rgb(231, 223, 223);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #777;
+}
+
+#Section {
+    float: left;
+    background-color: rgb(231, 223, 223);
+    height: 200px;
+    width: 520px;
+    text-align: center;
+    padding: 30px;
+}
+
+#p {
+color: white;
+height: 10px;
+background-color: #777
+}
+
+
+#Aside {
+    float: right;
+    background-color: rgb(231, 223, 223);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+
+.clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+}
+
+#Footer {
+    background-color: rgb(231, 223, 223);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #777;
+}
+
